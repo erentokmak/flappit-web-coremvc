@@ -24,6 +24,36 @@
     <link class="skin" rel="stylesheet" href="css/skin/skin-3.css?v1">
     <link rel="stylesheet" href="vendor/switcher/switcher.css">
     <link rel="stylesheet" href="vendor/rangeslider/rangeslider.css">
+    <style>
+        .ribbon {
+            width: 133px;
+            height: 81px;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+        }
+
+        .ribbon__content {
+            left: 45px;
+            top: 8px;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            position: absolute;
+            display: block;
+            width: 120px;
+            padding: 10px 0;
+            background-color: #f57984;
+            box-shadow: 0 5px 10px rgb(0 0 0 / 19%);
+            color: #fff;
+            text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid#fff;
+            outline: 5px solid #f57984;
+            z-index: 10;
+        }
+    </style>
 </head>
 <body id="bg">
     <div id="loading-area" class="loading-03"></div>
@@ -215,7 +245,7 @@
                     </div>
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow fadeInRight active" data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 2s; display: flex; animation-delay: 0.4s; animation-name: fadeInRight; flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
+                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow" style="visibility: visible;  display: flex; flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
                                 <div class="icon-bx-sm radius">
                                     <a href="javascript:void(0);" class="icon-cell">
                                         <i class="fas fa-car-side"></i>
@@ -225,7 +255,10 @@
                                     <h4 class="dlab-title m-b10">AUTOWÄSCHE</h4>
                                 </div>
                             </div>
-                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 2s; display: flex; animation-delay: 0.4s; animation-name: fadeInRight; flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
+                            <div class="card mb-0">
+                                <div class="ribbon"><span class="ribbon__content">soon</span></div>
+                            </div>
+                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow" style="visibility: visible;  display: flex;flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
                                 <div class="icon-bx-sm radius">
                                     <a href="javascript:void(0);" class="icon-cell">
                                         <i class="fas fa-wrench"></i>
@@ -236,18 +269,27 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-6">
-                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow fadeInRight active" data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 2s; display: flex; animation-delay: 0.4s; animation-name: fadeInRight; flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
+                            <div class="card mb-0">
+                                <div class="ribbon"><span class="ribbon__content">soon</span></div>
+                            </div>
+                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow" style="visibility: visible;  display: flex; flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
                                 <div class="icon-bx-sm radius">
                                     <a href="javascript:void(0);" class="icon-cell">
                                         <i class="fas fa-parking"></i>
                                     </a>
                                 </div>
                                 <div class="icon-content">
-                                    <h4 class="dlab-title m-b10">SMART PARKING</h4>
+                                    <h4 class="dlab-title m-b10">
+                                        SMART PARKING
+                                    </h4>
                                 </div>
                             </div>
-                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 2s; display: flex; animation-delay: 0.4s; animation-name: fadeInRight; flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
+                            <div class="card mb-0">
+                                <div class="ribbon"><span class="ribbon__content">soon</span></div>
+                            </div>
+                            <div class="icon-bx-wraper style-3 left box-hover m-b30 wow" style="visibility: visible;display: flex; flex-wrap: nowrap; align-content: stretch; justify-content: space-evenly; align-items: center;">
                                 <div class="icon-bx-sm radius">
                                     <a href="javascript:void(0);" class="icon-cell">
                                         <i class="fas fa-charging-station"></i>
@@ -515,6 +557,7 @@
         <!-- Footer End -->
         <button class="scroltop icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
     </div>
+
     <!-- JAVASCRIPT FILES ========================================= -->
     <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->

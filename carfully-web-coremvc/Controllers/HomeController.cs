@@ -1,11 +1,7 @@
 ﻿using carfully_web_coremvc.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace carfully_web_coremvc.Controllers
 {
@@ -24,6 +20,11 @@ namespace carfully_web_coremvc.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult FAQ()
         {
             return View();
         }

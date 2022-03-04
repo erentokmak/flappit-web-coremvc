@@ -1,0 +1,35 @@
+:root {
+    --primary: #3ba8df;
+    --gradient: linear-gradient(to right,#00adff 0,#0066ff 51%,#009bd7 100%);
+    --gradientY: linear-gradient(to top,#103070 0,#132a68 100%,#113271 100%);
+    --gradient-sec: linear-gradient(to right,#111c58 0,#00a4ff 51%,#111c58 100%);
+    --quote: url(../images/quotes-3.svg);
+    --primary-hover: #006fff;
+    --primary-dark: #006fff;
+    --rgba-primary-05: rgb(0 116 255);
+    --rgba-primary-1: rgb(0 139 255 / 12%);
+    --rgba-primary-2: rgb(1 144 255 / 45%);
+    --rgba-primary-3: rgb(2 150 255 / 25%);
+    --rgba-primary-4: rgb(1 126 255 / 37%);
+    --rgba-primary-5: rgb(0 127 255 / 48%);
+    --rgba-primary-6: rgb(0 115 255 / 47%);
+    --rgba-primary-7: rgb(2 122 255 / 36%);
+    --rgba-primary-8: rgb(0 116 255 / 35%);
+    --rgba-primary-9: rgb(2 122 255 / 48%);
+}
+
+.gradient {
+    background-image: var(--gradient);
+}
+
+body {
+    color: #5c6390;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #1f2471;
+}
+
+.site-footer.style-3 .footer-bottom {
+    background: #111942;
+}

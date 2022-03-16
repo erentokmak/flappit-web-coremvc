@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0bbf8ub38QtN6F5rIuUHWbYYmy4KdVot5WOh8tkMYtUj+Z2B0ifCk6gCv+ehK3fkkwwCsNltD9ox2F2/rRJcJA==",
+  "dgSpecHash": "y0ps1Gq2aKRd2VvbRtxwKxEPP9r2AQ2Geg5CBTxDy+edCYqQ0VKTAVL5LIrQ16Kfsa8sPq+1pyjlbw8DjzvzqQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ErkanPer\\source\\repos\\carfully-web-coremvc\\carfully-web-coremvc\\carfully-web-coremvc.csproj",
   "expectedPackageFiles": [
@@ -139,7 +139,8 @@
     "C:\\Users\\ErkanPer\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\ErkanPer\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ErkanPer\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\ErkanPer\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\ErkanPer\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\ErkanPer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
   ],
   "logs": []
 }

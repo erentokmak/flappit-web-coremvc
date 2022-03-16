@@ -5,6 +5,9 @@
     <UserSecretsId>aspnet-carfully_web_coremvc-62FF9CDE-4E33-4E42-A205-0F01183458CE</UserSecretsId>
     <RootNamespace>carfully_web_coremvc</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>

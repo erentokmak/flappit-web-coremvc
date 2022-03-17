@@ -43,6 +43,15 @@ namespace carfully_web_coremvc.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Register(Register model)
+        {
+            DbHelper dbHelper = new DbHelper();
+            dbHelper.QueryToTableOnlyConnectionString(_configuration.GetConnectionString("DefaultConnection"), "INSERT INTO RegisteredUser (FirstName, LastName, Phone, Email) VALUES ('" + model.FirstName + "','" + model.LastName + "','" + model.Phone + "','" + model.Email + "')");
+
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

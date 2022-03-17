@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-content bg-white">
+    <!-- Banner  -->
+    <div class="dlab-bnr-inr style-1 bg-primary" style="background-image: url(~/OnePage/images/banner/bnr2.png), var(--gradient-sec);  background-size: cover, 200%; ">
+        <div class="container">
+            <div class="dlab-bnr-inr-entry">
+                <h1>Register</h1>
+                <!-- Breadcrumb Row -->
+                <nav aria-label="breadcrumb" class="breadcrumb-row style-1">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Register</li>
+                    </ul>
+                </nav>
+                <!-- Breadcrumb Row End -->
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+    <!-- Get A Quote -->
+    <div class="content-inner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <div class="dlab-media">
+                        <img src="~/OnePage/images/about/img3.png" class="move-3" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                    <form class="dlab-form dzForm" method="POST" action="script/contact.php">
+                        <div class="dzFormMsg"></div>
+                        <input type="hidden" class="form-control" name="dzToDo" value="Contact">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <input name="dzName" required="" type="text" class="form-control" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <input name="dzOther[last_name required]" type="text" class="form-control" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <input name="dzEmail" required="" type="text" class="form-control" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <input name="dzOther[phone]" required="" type="text" class="form-control" placeholder="Phone No.">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <input name="dzOther[project_title]" required="" type="text" class="form-control" placeholder="Project Title">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <select name="dzOther[choose_service]" class="form-control">
+                                        <option selected="">Choose Service</option>
+                                        <option value="1">Web Development</option>
+                                        <option value="2">Web Design</option>
+                                        <option value="3">Strategy & Research</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="input-group">
+                                    <textarea name="dzMessage" required="" class="form-control" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="input-group">
+                                    <div class="g-recaptcha" data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                    <input class="form-control d-none" style="display:none;" data-recaptcha="true" required="" data-error="Please complete the Captcha">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <button name="submit" type="submit" value="Submit" class="btn btn-lg gradient btn-primary">Submit Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

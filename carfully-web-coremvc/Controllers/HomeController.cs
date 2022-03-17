@@ -1,11 +1,9 @@
 ﻿using carfully_web_coremvc.Helper;
 using carfully_web_coremvc.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-using Microsoft.Extensions.Configuration;
-using System.Data;
-using Microsoft.Data.SqlClient;
 
 namespace carfully_web_coremvc.Controllers
 {
@@ -49,6 +47,16 @@ namespace carfully_web_coremvc.Controllers
             DbHelper dbHelper = new DbHelper();
             dbHelper.QueryToTableOnlyConnectionString(_configuration.GetConnectionString("DefaultConnection"), "INSERT INTO RegisteredUser (FirstName, LastName, Phone, Email) VALUES ('" + model.FirstName + "','" + model.LastName + "','" + model.Phone + "','" + model.Email + "')");
 
+            return View();
+        }
+
+        public IActionResult SuccessPage()
+        {
+            return View();
+        }
+
+        public IActionResult ErrorPage()
+        {
             return View();
         }
 

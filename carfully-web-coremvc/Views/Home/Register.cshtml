@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Register
+@{
     ViewData["Title"] = "Register";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -31,35 +32,37 @@
                     </div>
                 </div>
                 <div class="col-xl-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-                    <form class="dlab-form dzForm" method="POST" action="script/contact.php">
+                    @using (Html.BeginForm("Register", "Home", FormMethod.Post, new { @class = "d-lab-form dzForm" }))
+                    {
+
                         <div class="dzFormMsg"></div>
                         <input type="hidden" class="form-control" name="dzToDo" value="Contact">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="input-group">
-                                    <input name="dzName" required="" type="text" class="form-control" placeholder="First Name">
+                                    @Html.TextBoxFor(x => x.FirstName, "", new { @class = "form-control", @required = "", @placeholder = "First Name" })
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="input-group">
-                                    <input name="dzOther[last_name required]" type="text" class="form-control" placeholder="Last Name">
+                                    @Html.TextBoxFor(x => x.LastName, "", new { @class = "form-control", @required = "", @placeholder = "Last Name" })
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="input-group">
-                                    <input name="dzEmail" required="" type="text" class="form-control" placeholder="Email Address">
+                                    @Html.TextBoxFor(x => x.Email, "", new { @class = "form-control", @required = "", @placeholder = "Email", @type = "email" })
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="input-group">
-                                    <input name="dzOther[phone]" required="" type="text" class="form-control" placeholder="Phone No.">
+                                    @Html.TextBoxFor(x => x.Phone, "", new { @class = "form-control", @required = "", @placeholder = "Phone" })
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <button name="submit" type="submit" value="Submit" class="btn btn-lg gradient btn-primary">Register Now</button>
                             </div>
                         </div>
-                    </form>
+                    }
                 </div>
             </div>
         </div>

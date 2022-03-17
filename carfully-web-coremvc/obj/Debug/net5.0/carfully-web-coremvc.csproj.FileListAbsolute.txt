@@ -1,3 +1,11 @@
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.AssemblyInfoInputs.cache
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.AssemblyInfo.cs
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.csproj.CoreCompileInputs.cache
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.RazorAssemblyInfo.cache
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.RazorAssemblyInfo.cs
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\appsettings.json
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\carfully-web-coremvc.StaticWebAssets.xml
@@ -6,6 +14,7 @@ C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Deb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\carfully-web-coremvc.runtimeconfig.json
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\carfully-web-coremvc.runtimeconfig.dev.json
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\carfully-web-coremvc.dll
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\ref\carfully-web-coremvc.dll
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\carfully-web-coremvc.pdb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -403,14 +412,6 @@ C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Deb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.AssemblyInfoInputs.cache
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.AssemblyInfo.cs
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.csproj.CoreCompileInputs.cache
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.RazorAssemblyInfo.cache
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.RazorAssemblyInfo.cs
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\scopedcss\bundle\carfully-web-coremvc.styles.css
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\staticwebassets\carfully-web-coremvc.StaticWebAssets.Manifest.cache
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\staticwebassets\carfully-web-coremvc.StaticWebAssets.xml
@@ -460,6 +461,7 @@ C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Deb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\FAQ.cshtml.g.cs
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Register.cshtml.g.cs
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -474,6 +476,4 @@ C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Deb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\ref\carfully-web-coremvc.dll
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.pdb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.genruntimeconfig.cache
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.csproj.AssemblyReference.cache
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\bin\Debug\net5.0\ref\carfully-web-coremvc.dll
-C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Register.cshtml.g.cs
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\SuccessPage.cshtml.g.cs

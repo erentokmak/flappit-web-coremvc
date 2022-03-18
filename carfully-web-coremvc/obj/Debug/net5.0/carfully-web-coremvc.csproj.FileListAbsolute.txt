@@ -477,3 +477,5 @@ C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Deb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.pdb
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.genruntimeconfig.cache
 C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\SuccessPage.cshtml.g.cs
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\ErrorPage.cshtml.g.cs
+C:\Users\ErkanPer\source\repos\carfully-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\carfully-web-coremvc.csproj.AssemblyReference.cache

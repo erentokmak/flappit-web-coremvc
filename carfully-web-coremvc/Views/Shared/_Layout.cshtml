@@ -8,211 +8,273 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
-    <title>@ViewData["Title"] | Die Nr. 1 Plattform für On-Demand Autoservices!</title>
+    <title>@ViewData["Title"] | Let's Flappit!</title>
 
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" href="~/OnePage/images/favicon.png">
 
-    <!-- Stylesheet -->
-    <link href="~/OnePage/endor/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
-    <link href="~/OnePage/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="~/OnePage/vendor/animate/animate.css" rel="stylesheet">
-    <link href="~/OnePage/vendor/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="~/Template/assets//css/bootstrap.min.css">
 
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="~/OnePage/css/style.css?v1">
-    <link class="skin" rel="stylesheet" href="~/OnePage/css/skin/skin-3.css?v1">
-    <link rel="stylesheet" href="~/OnePage/vendor/switcher/switcher.css">
-    <link rel="stylesheet" href="~/OnePage/vendor/rangeslider/rangeslider.css">
-    <style>
-        .ribbon {
-            width: 133px;
-            height: 81px;
-            position: absolute;
-            top: -10px;
-            right: -10px;
-        }
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="~/Template/assets//css/font-awesome.min.css">
 
-        .ribbon__content {
-            left: 45px;
-            top: 8px;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-            position: absolute;
-            display: block;
-            width: 120px;
-            padding: 10px 0;
-            background-color: #f57984;
-            box-shadow: 0 5px 10px rgb(0 0 0 / 19%);
-            color: #fff;
-            text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
-            text-transform: uppercase;
-            text-align: center;
-            border: 2px solid#fff;
-            outline: 5px solid #f57984;
-            z-index: 10;
-        }
-    </style>
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="~/Template/assets//css/animate.min.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="~/Template/assets//css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="~/Template/assets//css/slick.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="~/Template/assets//css/custom-animation.css">
+    <link rel="stylesheet" href="~/Template/assets//css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="~/Template/assets//css/style.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="~/Template/assets//css/responsive.css">
 </head>
-<body id="bg">
-    <div id="loading-area" class="loading-03"></div>
+<body>
 
-    <div class="page-wraper">
-        <!-- Header -->
-        <header class="site-header header mo-left header-transparent">
-            <!-- Main Header -->
-            <div class="sticky-header main-bar-wraper navbar-expand-lg">
-                <div class="main-bar clearfix ">
-                    <div class="container clearfix">
-                        <!-- Website Logo -->
-                        <div class="logo-header logo-white">
-                            <a href="/"><img class="logo-3" src="~/OnePage/images/logo-white.png" alt=""></a>
-                        </div>
-                        <!-- Nav Toggle Button -->
-                        <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </button>
-                        <!-- Extra Nav -->
-                        <div class="extra-nav">
-                            <div class="extra-cell">
-                                <a href="/Home/Register" class="btn gradient btn-primary">REGISTER NOW!</a>
-                            </div>
-                        </div>
-                        <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
-                            <div class="logo-header">
-                                <a href="/"><img src="~/OnePage/images/logo-3.png" alt=""></a>
-                            </div>
-                            <ul class="nav navbar-nav navbar">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="#serviceWarum">Warum Carfully?</a></li>
-                                <li><a href="#serviceTitle">Service</a></li>
-                                <li><a href="#soFunktin">So funktioniert’s</a></li>
-                                <li><a href="/Home/FAQ">FAQ</a></li>
-                                <li><a href="#kontaktTitle">Kontakt</a></li>
-                            </ul>
-                            <div class="dlab-social-icon">
-                                <ul>
-                                    <li><a class="fab fa-facebook-f" href="javascript:void(0);"></a></li>
-                                    <li><a class="fab fa-twitter" href="javascript:void(0);"></a></li>
-                                    <li><a class="fab fa-linkedin-in" href="javascript:void(0);"></a></li>
-                                    <li><a class="fab fa-instagram" href="javascript:void(0);"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Main Header End -->
-        </header>
-        <!-- Header End -->
+    <!--====== PRELOADER PART START ======-->
 
-        @RenderBody()
-
-        <!-- Footer -->
-        <footer class="site-footer style-3" id="footer" style="background-image: url(/OnePage/images/background/bg11.png), var(--gradient-sec); background-size: cover, 200%; ">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-12 col-md-4 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-                            <div class="widget widget_about">
-                                <div class="footer-logo">
-                                    <a href="/"><img src="~/OnePage/images/logo-white.png" alt=""></a>
-                                </div>
-                                <p>Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.</p>
-                                <div class="dlab-social-icon">
-                                    <ul>
-                                        <li><a class="fab fa-facebook-f" href="javascript:void(0);"></a></li>
-                                        <li><a class="fab fa-instagram" href="javascript:void(0);"></a></li>
-                                        <li><a class="fab fa-twitter" href="javascript:void(0);"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <div class="widget widget_services style-1">
-                                <h5 class="footer-title">Our links</h5>
-                                <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="#serviceTitle">Service</a></li>
-                                    <li><a href="#soFunktin">So funktioniert’s</a></li>
-                                    <li><a href="/Home/FAQ">FAQ</a></li>
-                                    <li><a href="#kontaktTitle">Kontakt</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-                            <div class="widget widget_services style-1">
-                                <h5 class="footer-title">Our Services</h5>
-                                <ul>
-                                    <li><a>AUTOWASCHE</a></li>
-                                    <li><a>KFZ SERVICE</a></li>
-                                    <li><a>SMART PARKING</a></li>
-                                    <li><a>EV CHARGING</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="1.0s">
-                            <div class="widget widget_getintuch">
-                                <h5 class="footer-title">Contact Us</h5>
-                                <ul>
-                                    <li>
-                                        <i class="fa fa-phone gradient"></i>
-                                        <span>+900000000000</span>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-envelope gradient"></i>
-                                        <span>
-                                            <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="bad3d4dcd5fadfc2dbd7cad6df94d9d5d7">[email&#160;protected]</a>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-map-marker-alt gradient"></i>
-                                        <span>**</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- footer bottom part -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-12 text-center">
-                            <span class="copyright-text">Copyright © 2022 <a href="/" target="_blank">Carfully</a>. All rights reserved.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer End -->
-        <button class="scroltop icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
+    <div class="loader-wrap">
+        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
 
-    <!-- JAVASCRIPT FILES ========================================= -->
-    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="~/OnePage/js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
-    <script src="~/OnePage/vendor/wow/wow.js"></script><!-- WOW JS -->
-    <script src="~/OnePage/vendor/bootstrap/js/popper.min.js"></script><!-- POPPER.MIN JS -->
-    <script src="~/OnePage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
-    <script src="~/OnePage/vendor/owl-carousel/owl.carousel.js"></script><!-- OWL-CAROUSEL JS -->
-    <script src="~/OnePage/vendor/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC-POPUP JS -->
-    <script src="~/OnePage/vendor/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
-    <script src="~/OnePage/vendor/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
-    <script src="~/OnePage/vendor/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
-    <script src="~/OnePage/vendor/masonry/masonry-4.2.2.js"></script><!-- MASONRY -->
-    <script src="~/OnePage/vendor/masonry/isotope.pkgd.min.js"></script><!-- ISOTOPE -->
-    <script src="~/OnePage/vendor/lightgallery/js/lightgallery-all.min.js"></script><!-- LIGHTGALLERY -->
-    <script src="~/OnePage/vendor/bootstrap-select/bootstrap-select.min.js"></script><!-- BOOTSTRAP SELECT -->
-    <script src="~/OnePage/js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
-    <script src="~/OnePage/js/dz.ajax.js"></script><!-- CONTACT JS  -->
-    <script src="~/OnePage/js/custom.js"></script><!-- CUSTOM JS -->
-    <script src="~/OnePage/vendor/switcher/switcher.js"></script><!-- SWITCHER JS -->
-    <script src="~/OnePage/vendor/rangeslider/rangeslider.js"></script><!-- SWITCHER JS -->
+    <!--====== PRELOADER PART ENDS ======-->
+    <!--====== OFFCANVAS MENU PART START ======-->
+
+    <div class="off_canvars_overlay">
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="fa fa-times"></i></a>
+                        </div>
+                        <div class="offcanvas-brand text-center mb-40">
+                            <img src="~/Template/assets//images/logo.png" alt="">
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="service-details.html">Service</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="#">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about-us.html">About Us 1</a></li>
+                                        <li><a href="about-us-2.html">About Us 2</a></li>
+                                        <li><a href="error.html">Error</a></li>
+                                        <li><a href="shop.html">shop</a></li>
+                                        <li><a href="shop-details.html">Shop Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="#">News</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="news.html">news page</a></li>
+                                        <li><a href="single-news.html">Single News</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas-social">
+                            <ul class="text-center">
+                                <li><a href="$"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="$"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="$"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="$"><i class="fab fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget-info">
+                            <ul>
+                                <li><a href="#"><i class="fal fa-envelope"></i> support@appie.com</a></li>
+                                <li><a href="#"><i class="fal fa-phone"></i> +(642) 342 762 44</a></li>
+                                <li><a href="#"><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St Floor 7, San Francisco, AV 4206</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== OFFCANVAS MENU PART ENDS ======-->
+    <!--====== PART START ======-->
+
+    <header class="appie-header-area appie-sticky">
+        <div class="container">
+            <div class="header-nav-box header-nav-box-6">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+                        <div class="appie-logo-box">
+                            <a href="index.html">
+                                <img src="~/Template/assets/images/logo-8.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
+                        <div class="appie-header-main-menu">
+                            <ul>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="service-details.html">So funktioniert’s</a>
+                                </li>
+                                <li>
+                                    <a href="service-details.html">Features</a>
+                                </li>
+                                <li>
+                                    <a href="service-details.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="service-details.html">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+                        <div class="appie-btn-box text-right">
+                            <a class="login-btn" href="#"><i class="fal fa-user"></i> Login</a>
+                            <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--====== PART ENDS ======-->
+
+    @RenderBody()
+
+    <!--====== APPIE FOOTER PART START ======-->
+
+    <section class="appie-footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-about-widget footer-about-widget-6">
+                        <div class="logo">
+                            <a href="#"><img src="~/Template/assets//images/logo-8.png" alt=""></a>
+                        </div>
+                        <p>Appie WordPress is theme is the last theme you will ever have.</p>
+                        <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
+                        <div class="social mt-30">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-navigation footer-navigation-6">
+                        <h4 class="title">Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-navigation footer-navigation-6">
+                        <h4 class="title">Support</h4>
+                        <ul>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget-info">
+                        <h4 class="title">Get In Touch</h4>
+                        <ul>
+                            <li><a href="#"><i class="fal fa-envelope"></i> support@appie.com</a></li>
+                            <li><a href="#"><i class="fal fa-phone"></i> +(642) 342 762 44</a></li>
+                            <li><a href="#"><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St Floor 7, San Francisco, AV 4206</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-copyright d-flex align-items-center justify-content-between pt-35">
+                        <div class="apps-download-btn">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-apple"></i> Download for iOS</a></li>
+                                <li><a class="item-2" href="#"><i class="fab fa-google-play"></i> Download for Android</a></li>
+                            </ul>
+                        </div>
+                        <div class="copyright-text">
+                            <p>Copyright © 2021 Appie. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== APPIE FOOTER PART ENDS ======-->
+    <!--====== APPIE BACK TO TOP PART ENDS ======-->
+    <div class="back-to-top back-to-top-6">
+        <a href="#"><i class="fal fa-arrow-up"></i></a>
+    </div>
+    <!--====== APPIE BACK TO TOP PART ENDS ======-->
+    <!--====== jquery js ======-->
+    <script src="~/Template/assets//js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="~/Template/assets//js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="~/Template/assets//js/bootstrap.min.js"></script>
+    <script src="~/Template/assets//js/popper.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="~/Template/assets//js/wow.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="~/Template/assets//js/jquery.counterup.min.js"></script>
+    <script src="~/Template/assets//js/waypoints.min.js"></script>
+
+    <!--====== TweenMax js ======-->
+    <script src="~/Template/assets//js/TweenMax.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="~/Template/assets//js/slick.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="~/Template/assets//js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="~/Template/assets//js/main.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

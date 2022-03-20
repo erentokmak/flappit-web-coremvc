@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y0ps1Gq2aKRd2VvbRtxwKxEPP9r2AQ2Geg5CBTxDy+edCYqQ0VKTAVL5LIrQ16Kfsa8sPq+1pyjlbw8DjzvzqQ==",
+  "dgSpecHash": "p2zRNZjXQLRWPG3HC79Afi78BNACKOAwjLjbAjv562kGIVMGpMhP6gpFl6lgKiRlghh66ni4eO7gzYbaD4YCWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ErkanPer\\source\\repos\\carfully-web-coremvc\\carfully-web-coremvc\\carfully-web-coremvc.csproj",
+  "projectFilePath": "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\flappit-web-coremvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ErkanPer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ErkanPer\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",

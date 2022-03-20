@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\carfully-web-coremvc.csproj": {}
+    "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\flappit-web-coremvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\carfully-web-coremvc.csproj": {
+    "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\flappit-web-coremvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\carfully-web-coremvc.csproj",
-        "projectName": "carfully-web-coremvc",
-        "projectPath": "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\carfully-web-coremvc.csproj",
+        "projectUniqueName": "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\flappit-web-coremvc.csproj",
+        "projectName": "flappit-web-coremvc",
+        "projectPath": "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\flappit-web-coremvc.csproj",
         "packagesPath": "C:\\Users\\ErkanPer\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ErkanPer\\source\\repos\\flappit-web-coremvc\\carfully-web-coremvc\\obj\\",
         "projectStyle": "PackageReference",

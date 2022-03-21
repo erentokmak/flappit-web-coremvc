@@ -21,9 +21,6 @@ namespace carfully_web_coremvc.Controllers
 
         public IActionResult Index()
         {
-            DbHelper dbHelper = new DbHelper();
-            var x = dbHelper.QueryToTableOnlyConnectionString(_configuration.GetConnectionString("DefaultConnection"), "select * from AspNetUsers");
-
             return View();
         }
 
@@ -88,17 +85,18 @@ namespace carfully_web_coremvc.Controllers
         [HttpPost]
         public IActionResult Register(Register model)
         {
-            DbHelper dbHelper = new DbHelper();
-            try
-            {
-                dbHelper.QueryToTableOnlyConnectionString(_configuration.GetConnectionString("DefaultConnection"), "INSERT INTO RegisteredUser (FirstName, LastName, Phone, Email) VALUES ('" + model.FirstName + "','" + model.LastName + "','" + model.Phone + "','" + model.Email + "')");
+            //DbHelper dbHelper = new DbHelper();
+            //try
+            //{
+            //    dbHelper.QueryToTableOnlyConnectionString(_configuration.GetConnectionString("DefaultConnection"), "INSERT INTO RegisteredUser (FirstName, LastName, Phone, Email) VALUES ('" + model.FirstName + "','" + model.LastName + "','" + model.Phone + "','" + model.Email + "')");
 
-                return RedirectToAction("SuccessPage");
-            }
-            catch (System.Exception)
-            {
-                return RedirectToAction("ErrorPage");
-            }
+            //    return RedirectToAction("SuccessPage");
+            //}
+            //catch (System.Exception)
+            //{
+            //    return RedirectToAction("ErrorPage");
+            //}
+            return View();
         }
 
         public IActionResult SuccessPage()

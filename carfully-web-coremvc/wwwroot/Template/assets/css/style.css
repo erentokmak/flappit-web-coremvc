@@ -6997,4 +6997,14 @@ blockquote cite {
 #preloading{
   display: none;
 }
-
+.letsflappit {
+    background: #ffffff;
+    border-color: black;
+    display: flex;
+    color: black;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

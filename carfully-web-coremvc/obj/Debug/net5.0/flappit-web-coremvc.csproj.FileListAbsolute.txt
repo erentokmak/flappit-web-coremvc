@@ -483,3 +483,4 @@ C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debu
 C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Impressum.cshtml.g.cs
 C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Datenschutzerklärung.cshtml.g.cs
+C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\AGB.cshtml.g.cs

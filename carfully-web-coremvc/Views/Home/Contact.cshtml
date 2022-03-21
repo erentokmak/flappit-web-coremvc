@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Contact
+@{
     ViewData["Title"] = "Kontakt";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -127,21 +128,24 @@
                         Kontaktiere Uns
                     </h4>
                     <p style="text-align:center;font-weight:bold">Fragen ? Wir sind hier, um zu helfen. Konaktiere uns umgehend oder fülle das Formular unten aus. Unsere Mitarbeiter rufen dich innerhalb 24 Stunden zurück.</p>
-                    <form action="#" method="post" class="row">
+
+                    @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "row" }))
+                    {
+
                         <div class="col-md-6">
-                            <input type="text" name="f-name" placeholder="Name*">
+                            @Html.TextBoxFor(x => x.Name, "", new { @class = "form-control", @required = "", @placeholder = "Name*" })
                         </div>
                         <div class="col-md-6">
-                            <input type="text" name="l-name" placeholder="E-Mail Adresse*">
+                            @Html.TextBoxFor(x => x.Email, "", new { @class = "form-control", @required = "", @placeholder = "E-Mail Adresse*" })
                         </div>
                         <div class="col-md-6">
-                            <input type="email" name="email" placeholder="Website*">
+                            @Html.TextBoxFor(x => x.Website, "", new { @class = "form-control", @required = "", @placeholder = "Website*" })
                         </div>
                         <div class="col-md-6">
-                            <input type="text" name="phone" placeholder="Vorwahl, Rufnummer*">
+                            @Html.TextBoxFor(x => x.Phone, "", new { @class = "form-control", @required = "", @placeholder = "Vorwahl, Rufnummer*" })
                         </div>
                         <div class="col-md-12">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            @Html.TextAreaFor(x => x.Message, 3, 5, new { @class = "form-control", @required = "", @placeholder = "Message*" })
                         </div>
                         <div class="col-md-6">
                             <div class="condition-check">
@@ -154,7 +158,7 @@
                         <div class="col-md-6 text-right">
                             <input type="submit" name="submit" value="Send Message">
                         </div>
-                    </form>
+                    }
                 </div>
             </div>
         </div>

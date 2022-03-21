@@ -52,6 +52,12 @@ namespace carfully_web_coremvc.Controllers
         }
 
         [HttpPost]
+        public IActionResult Contact(Contact model)
+        {
+            return RedirectToAction("SuccessPage");
+        }
+
+        [HttpPost]
         public IActionResult Register(Register model)
         {
             DbHelper dbHelper = new DbHelper();

@@ -46,6 +46,11 @@ namespace carfully_web_coremvc.Controllers
             return View();
         }
 
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Register(Register model)
         {

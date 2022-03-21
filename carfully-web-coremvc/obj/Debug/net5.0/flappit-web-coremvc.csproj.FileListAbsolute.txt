@@ -480,3 +480,4 @@ C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debu
 C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\flappit-web-coremvc.genruntimeconfig.cache
 C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\flappit-web-coremvc.csproj.AssemblyReference.cache
 C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\ErkanPer\source\repos\flappit-web-coremvc\carfully-web-coremvc\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System.Net.Mail;
 
 namespace carfully_web_coremvc.Controllers
 {
@@ -54,7 +55,34 @@ namespace carfully_web_coremvc.Controllers
         [HttpPost]
         public IActionResult Contact(Contact model)
         {
-            return RedirectToAction("SuccessPage");
+            MailMessage ePosta = new MailMessage();
+            ePosta.From = new MailAddress("flappitdemail@gmail.com");
+            //
+            ePosta.To.Add("flappitdemail@gmail.com");
+            //ePosta.To.Add("eposta2@gmail.com");
+            //ePosta.To.Add("eposta3@gmail.com");
+            //
+            //
+            ePosta.Subject = "Name: " + model.Name + ", Website: " + model.Website;
+            //
+            ePosta.Body = "Name: " + model.Name + "<br/>" + "Website: " + model.Website + "<br/>" + "Email: " + model.Email + "<br/>" + "Phone: " + model.Phone + "<br/>" + "Message: " + model.Message;
+            //
+            SmtpClient smtp = new SmtpClient();
+            //
+            smtp.Credentials = new System.Net.NetworkCredential("flappitdemail@gmail.com", "Bismillah1*+");
+            smtp.Port = 587;
+            smtp.Host = "smtp.gmail.com";
+            smtp.EnableSsl = true;
+            ePosta.IsBodyHtml = true;
+            try
+            {
+                smtp.SendAsync(ePosta, (object)ePosta);
+                return RedirectToAction("SuccessPage");
+            }
+            catch (SmtpException)
+            {
+                return RedirectToAction("ErrorPage");
+            }
         }
 
         [HttpPost]
